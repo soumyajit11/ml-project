@@ -48,7 +48,6 @@ class DataTransformation:
                     ("one_hot_encoder", OneHotEncoder()),
                     ("scalar", StandardScaler(with_mean=False))
                 ]
-
             )
 
             logging.info("Categorical columns standard scaling completed")
